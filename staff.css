@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('chick.jpg');
+    transition: background-image 3s ease-out; 
+}
+
+.navbar {
+    position: relative;
+    top: -90px; 
+    width: 95%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.main-container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h2 {
+    text-align: center;
+}
+
+hr {
+    width: 10rem;
+    margin: 10px auto;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    margin: 8px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.team-member:hover {
+    transform: scale(1.4);
+}
+
+
+h4,
+p {
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
