@@ -40,21 +40,21 @@
 }
 
 .content h5{
-    font-size: 17px;
+    font-size: 1px;
     margin-top: -40px;
-    text-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px black;
 
 }
 
 .card{
-    width: 200px;
-    height: 230px;
+    width: 100px;
+    height: 130px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 15px 15px;
+    margin: 25px 25px;
     background-size: cover; 
     background-position: center;
     transition: 1s;
